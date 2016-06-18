@@ -10,8 +10,7 @@ analysis. A full description of the data used in this project can be found at [T
 
 ### Making Modifications to This Script
 Once you have obtained and unzipped the source files, you will need to make one modification to the R file before you can process the data.
-Note that on line 26 of run_analysis.R, you will set the path of the working directory to relect the location of the source files
-in your own directory.
+Note that on line 24 of run_analysis.R, you will set the path of the working directory to your own directory
 
 ### Project Summary
 The following is a summary description of the project instructions <br />
