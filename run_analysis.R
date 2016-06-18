@@ -119,4 +119,4 @@ ActivityTest   = read.table(file.path(path_uci,"test","y_test.txt"),header=FALSE
   dataFinal2 = dataFinal2[order(dataFinal2$subject,dataFinal2$activity),]
 
   # Export the tidy dataset to a text file 
-  write.table(dataFinal2, file = "./data/tidyData.txt",row.names=TRUE,sep='\t')
+  write.table(dataFinal2, file = "./data/tidyData.txt",row.names=FALSE)
